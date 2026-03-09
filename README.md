@@ -10,7 +10,7 @@
 ## Curso 2
 <img width="1903" height="911" alt="image" src="https://github.com/user-attachments/assets/5dcbfabb-ecfc-4176-94c6-038c3230237b" />
 
-## Operações Aritmetricas
+## Operações Aritmeticas
 <img width="1919" height="740" alt="image" src="https://github.com/user-attachments/assets/c9c62db0-cd71-4937-964a-435ee40346e0" />
 
 ## Operações Geometricas
