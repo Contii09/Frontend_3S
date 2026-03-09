@@ -1,0 +1,89 @@
+{% extends 'base.html' %}
+
+{% block conteudo %}
+<h1>Funcionários</h1>
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+    Novo Funcionário
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+     aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <div class="modal-body">
+                <form class="form-somar" action="{{ url_for('cadastro_funcionario') }}" method="post">
+                    <label>
+                        <input placeholder="Digite o Nome" name="form-nome" class="form_control">
+                    </label>
+                    <label>
+                        <input placeholder="Digite a Data de Nascimento" name="form_data-nascimento"
+                               class="form_control" type="date">
+                    </label>
+                    <label>
+                        <input placeholder="Digite o CPF" name="form-cpf" class="form_control">
+                    </label>
+                    <label>
+                        <input placeholder="Digite o Email" name="form-email" class="form_control" type="email">
+                    </label>
+                    <label>
+                        <input placeholder="Digite a Senha" name="form-senha" class="form_control">
+                    </label>
+                    <label>
+                        <input placeholder="Digite o Cargo" name="form-cargo" class="form_control">
+                    </label>
+                    <label>
+                        <input placeholder="Digite o Salário" name="form-salario" class="form_control">
+                    </label>
+
+
+                    <button type="submit" class="btn btn-info">Cadastrar</button>
+                </form>
+                ...
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="lv">
+
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Data de nascimento</th>
+            <th>CPF</th>
+            <th>Email</th>
+            <th>Cargo</th>
+            <th>Salário</th>
+
+        </tr>
+        </thead>
+
+        <tbody>
+        {% for funcionario in resultado %}
+        <tr>
+            <td>{{ funcionario.id }}</td>
+            <td>{{ funcionario.nome }}</td>
+            <td>{{ funcionario.data_nascimeto }}</td>
+            <td>{{ funcionario.cpf }}</td>
+            <td>{{ funcionario.email }}</td>
+            <td>{{ funcionario.cargo }}</td>
+            <td>{{ funcionario.salario }}</td>
+        </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+{% endblock %}
