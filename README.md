@@ -18,3 +18,4 @@
 
 ## Funcionários
 <img width="1919" height="707" alt="image" src="https://github.com/user-attachments/assets/b676f3f5-2d2f-4200-9d81-8c5b90d6a75b" />
+
