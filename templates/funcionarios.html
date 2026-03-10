@@ -19,28 +19,32 @@
             </div>
 
             <div class="modal-body">
-                <form class="form-somar" action="{{ url_for('cadastro_funcionario') }}" method="post">
+                <form id="form-cadastro" class="form-somar" action="{{ url_for('cadastro_funcionario') }}"
+                      method="post">
                     <label>
-                        <input placeholder="Digite o Nome" name="form-nome" class="form_control">
+                        <input id="form-nome" placeholder="Digite o Nome" name="form-nome" class="form_control">
                     </label>
                     <label>
-                        <input placeholder="Digite a Data de Nascimento" name="form_data-nascimento"
+                        <input id="form-nascimento" placeholder="Digite a Data de Nascimento"
+                               name="form_data-nascimento"
                                class="form_control" type="date">
                     </label>
                     <label>
-                        <input placeholder="Digite o CPF" name="form-cpf" class="form_control">
+                        <input id="form-cpf" placeholder="Digite o CPF" name="form-cpf" class="form_control">
                     </label>
                     <label>
-                        <input placeholder="Digite o Email" name="form-email" class="form_control" type="email">
+                        <input id="form-emaill" placeholder="Digite o Email" name="form-email" class="form_control"
+                               type="email">
                     </label>
                     <label>
-                        <input placeholder="Digite a Senha" name="form-senha" class="form_control">
+                        <input id="form-senhaa" placeholder="Digite a Senha" name="form-senha" class="form_control">
                     </label>
                     <label>
-                        <input placeholder="Digite o Cargo" name="form-cargo" class="form_control">
+                        <input id="form-cargo" placeholder="Digite o Cargo" name="form-cargo" class="form_control">
                     </label>
                     <label>
-                        <input placeholder="Digite o Salário" name="form-salario" class="form_control">
+                        <input
+                                id="form-salario" placeholder="Digite o Salário" name="form-salario" class="form_control">
                     </label>
 
 
@@ -50,6 +54,7 @@
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
+                <a class="btn btn-danger" onclick="limpaInputsCadastro()">Cancelar</a>
             </div>
         </div>
     </div>

@@ -44,6 +44,8 @@ def operacoes():
     return render_template("operacoes.html")
 
 
+
+
 @app.route('/funcionarios')
 @login_required
 def funcionarios():
@@ -318,6 +320,14 @@ def perimetro_hexagonop():
         else:
             flash("preencher o campo para realizar a conta", 'alert-danger')
     return render_template("geometria.html")
+
+
+
+@app.route('/animais')
+def animais():
+    return render_template('animais.html')
+
+
 
 
 # TODO Final do código
