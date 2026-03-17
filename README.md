@@ -19,3 +19,9 @@
 ## Funcionários
 <img width="1919" height="707" alt="image" src="https://github.com/user-attachments/assets/b676f3f5-2d2f-4200-9d81-8c5b90d6a75b" />
 
+## Animais
+<img width="1919" height="914" alt="Captura de tela 2026-03-17 132909" src="https://github.com/user-attachments/assets/6d94f6b2-f156-460f-9db6-dbbd453f8906" />
+
+## Gatos
+<img width="1919" height="915" alt="Captura de tela 2026-03-17 133043" src="https://github.com/user-attachments/assets/09a96d04-a5c8-4154-9094-b87bbf512459" />
+
