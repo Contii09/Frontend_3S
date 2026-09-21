@@ -1,10 +1,10 @@
 {% extends 'base.html' %}
 
 {% block conteudo %}
-<h1>Funcionários</h1>
+<h1 class="operacoes">Funcionários</h1>
 
 <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+<button type="button" class="btn btn botao" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
     Novo Funcionário
 </button>
 
@@ -80,7 +80,7 @@
         <tr>
             <td>{{ funcionario.id }}</td>
             <td>{{ funcionario.nome }}</td>
-            <td>{{ funcionario.data_nascimeto }}</td>
+            <td>{{ funcionario.data_nascimento }}</td>
             <td>{{ funcionario.cpf }}</td>
             <td>{{ funcionario.email }}</td>
             <td>{{ funcionario.cargo }}</td>

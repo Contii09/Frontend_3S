@@ -2,7 +2,7 @@
 
 {% block conteudo %}
 
-<h1>Operações Geometricas</h1>
+<h1 class="operacoes">Operações Geometricas</h1>
 <!-- Passo 2: Verifica se possui msgs enviadas pelo app -->
 <!-- Passo 3:  Definir with_categories=true caso queira ter acesso as categorias -->
 {% with messages = get_flashed_messages(with_categories=true) %}
@@ -23,13 +23,13 @@
 <div class="calculos">
 
     <div class="card_operacao">
-        <h2>Area do Triangulo</h2>
+        <h2 class="operacoes">Area do Triangulo</h2>
         <form class="form-somar" action="{{ url_for('Triangulo') }}" method="post">
             <label>
                 <input placeholder="Digite a Base do Triangulo" name="form-n1" class="form-control">
             </label>
 
-            <p class="operador"> (base × altura) / 2</p>
+            <p class="operador"> (b × h) / 2</p>
 
             <label>
                 <input placeholder="Digite a Altura do Triangulo" name="form-n2" class="form-control">
@@ -42,12 +42,12 @@
                 {% endif %}
             </p>
 
-            <button type="submit" class="btn btn-info">Calcular</button>
+            <button type="submit" class="botao btn btn">Calcular</button>
         </form>
         <div class="accordion" id="accordion3">
             <div class="accordion-item">
                 <h2 class="accordion-header">
-                    <button class="accordion-button collapsed bg-primary" type="button" data-bs-toggle="collapse"
+                    <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
                         Como calcular?
                     </button>
@@ -64,7 +64,7 @@
     </div>
 
     <div class="card_operacao">
-        <h2>Area do Circulo</h2>
+        <h2 class="operacoes">Area do Circulo</h2>
         <form class="form-somar" action="{{ url_for('Circulo') }}" method="post">
             <label>
                 <input placeholder="Digite um número" name="form-n1" class="form-control">
@@ -82,13 +82,13 @@
                 {% else %}
                 {% endif %}
             </p>
-            <button type="submit" class="btn btn-info">Calcular</button>
+            <button type="submit" class="botao btn btn">Calcular</button>
 
         </form>
         <div class="accordion" id="accordion88">
             <div class="accordion-item">
                 <h2 class="accordion-header">
-                    <button class="accordion-button collapsed bg-primary" type="button" data-bs-toggle="collapse"
+                    <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapse88" aria-expanded="false" aria-controls="collapse88">
                         Como calcular?
                     </button>
@@ -105,13 +105,13 @@
     </div>
 
     <div class="card_operacao">
-        <h2>Area do Quadrado</h2>
+        <h2 class="operacoes">Area do Quadrado</h2>
         <form class="form-somar" action="{{ url_for('Quadrado') }}" method="post">
             <label>
                 <input placeholder="Digite o lado do Quadrado" name="form-n1" class="form-control">
             </label>
 
-            <p class="operador">Área = Lado × Lado</p>
+            <p class="operador">lado × lado</p>
 
             <label>
                 <input placeholder="Digite lado do Quadrado" name="form-n2" class="form-control">
@@ -123,12 +123,12 @@
                 {% else %}
                 {% endif %}
             </p>
-            <button type="submit" class="btn btn-info">Calcular</button>
+            <button type="submit" class="botao btn btn">Calcular</button>
         </form>
         <div class="accordion" id="accordion99">
             <div class="accordion-item">
                 <h2 class="accordion-header">
-                    <button class="accordion-button collapsed bg-primary" type="button" data-bs-toggle="collapse"
+                    <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapse99" aria-expanded="false" aria-controls="collapse99">
                         Como calcular?
                     </button>
@@ -145,13 +145,13 @@
 
 
     <div class="card_operacao">
-        <h2>Area do Hexagono</h2>
+        <h2 class="operacoes">Area do Hexagono</h2>
         <form class="form-somar" action="{{ url_for('Hexagono') }}" method="post">
             <label>
                 <input placeholder="Digite a base" name="form-n1" class="form-control">
             </label>
 
-            <p class="operador">Área = (base × altura) / 2 * 6</p>
+            <p class="operador">(b × h) / 2 * 6</p>
 
             <label>
                 <input placeholder="Digite a altura" name="form-n2" class="form-control">
@@ -163,13 +163,13 @@
                 {% else %}
                 {% endif %}
             </p>
-            <button type="submit" class="btn btn-info">Calcular</button>
+            <button type="submit" class="botao btn btn">Calcular</button>
 
         </form>
         <div class="accordion" id="accordion8">
             <div class="accordion-item">
                 <h2 class="accordion-header">
-                    <button class="accordion-button collapsed bg-primary" type="button" data-bs-toggle="collapse"
+                    <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
                         Como calcular?
                     </button>
@@ -189,13 +189,13 @@
 <div class="calculos">
 
     <div class="card_operacao">
-        <h2>Perimetro do Triangulo</h2>
+        <h2 class="operacoes">Perimetro do Triangulo</h2>
         <form class="form-somar" action="{{ url_for('perimetro_triangulo') }}" method="post">
             <label>
                 <input placeholder="Digite o lado do Triangulo" name="form-n1" class="form-control">
             </label>
 
-            <p class="operador">Lado x 3</p>
+            <p class="operador">lado x 3</p>
 
 
             <p class="resultado">
@@ -205,12 +205,12 @@
                 {% endif %}
             </p>
 
-            <button type="submit" class="btn btn-info">Calcular</button>
+            <button type="submit" class="botao btn btn">Calcular</button>
         </form>
         <div class="accordion" id="accordion7">
             <div class="accordion-item">
                 <h2 class="accordion-header">
-                    <button class="accordion-button collapsed bg-primary" type="button" data-bs-toggle="collapse"
+                    <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
                         Como calcular?
                     </button>
@@ -227,13 +227,13 @@
 
 
     <div class="card_operacao">
-        <h2>Perimetro do Circulo</h2>
+        <h2 class="operacoes">Perimetro do Circulo</h2>
         <form class="form-somar" action="{{ url_for('perimetro_circulo') }}" method="post">
             <label>
                 <input placeholder="Digite a Base do Triangulo" name="form-n1" class="form-control">
             </label>
 
-            <p class="operador">C = 2πr</p>
+            <p class="operador">2πr</p>
 
             <label>
                 <input placeholder="Digite a Altura do Triangulo" name="form-n2" class="form-control">
@@ -246,12 +246,12 @@
                 {% endif %}
             </p>
 
-            <button type="submit" class="btn btn-info">Calcular</button>
+            <button type="submit" class="botao btn btn">Calcular</button>
         </form>
         <div class="accordion" id="accordion6">
             <div class="accordion-item">
                 <h2 class="accordion-header">
-                    <button class="accordion-button collapsed bg-primary" type="button" data-bs-toggle="collapse"
+                    <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
                         Como calcular?
                     </button>
@@ -268,13 +268,13 @@
 
 
     <div class="card_operacao">
-        <h2>Perimetro do Quadrado</h2>
+        <h2 class="operacoes">Perimetro do Quadrado</h2>
         <form class="form-somar" action="{{ url_for('perimetro_quadrado') }}" method="post">
             <label>
                 <input placeholder="Digite o lado do quadrado" name="form-n1" class="form-control">
             </label>
 
-            <p class="operador">Lado x 4</p>
+            <p class="operador">lado x 4</p>
 
 
             <p class="resultado">
@@ -284,12 +284,12 @@
                 {% endif %}
             </p>
 
-            <button type="submit" class="btn btn-info">Calcular</button>
+            <button type="submit" class="botao btn btn">Calcular</button>
         </form>
         <div class="accordion" id="accordion5">
             <div class="accordion-item">
                 <h2 class="accordion-header">
-                    <button class="accordion-button collapsed bg-primary" type="button" data-bs-toggle="collapse"
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
                         Como calcular?
                     </button>
@@ -306,13 +306,13 @@
 
 
     <div class="card_operacao">
-        <h2>Perimetro do Hexagono</h2>
+        <h2 class="operacoes">Perimetro do Hexagono</h2>
         <form class="form-somar" action="{{ url_for('perimetro_hexagonop') }}" method="post">
             <label>
                 <input placeholder="Digite o lado do hexagono" name="form-n1" class="form-control">
             </label>
 
-            <p class="operador">Lado x 6</p>
+            <p class="operador">lado x 6</p>
 
 
             <p class="resultado">
@@ -322,12 +322,12 @@
                 {% endif %}
             </p>
 
-            <button type="submit" class="btn btn-info">Calcular</button>
+            <button type="submit" class="botao btn btn">Calcular</button>
         </form>
         <div class="accordion" id="accordion4">
             <div class="accordion-item">
                 <h2 class="accordion-header">
-                    <button class="accordion-button collapsed bg-primary" type="button" data-bs-toggle="collapse"
+                    <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
                         Como calcular?
                     </button>

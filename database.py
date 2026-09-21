@@ -1,11 +1,11 @@
-# importar as bibliotecas
+#importar as bibliotecas
 from flask_login import UserMixin
 from sqlalchemy import create_engine, String, Integer, func, Column, DateTime, ForeignKey, Float
 from sqlalchemy.orm import sessionmaker, declarative_base, scoped_session
 from sqlalchemy.exc import SQLALchemyError, SQLAlchemyError
 from werkzeug.security import generate_password_hash, check_password_hash
 
-# base de dados
+#base de dados
 engine = create_engine('mysql+pymysql://root:senaisp@localhost:3306/empresa_db')
 
 db_session = scoped_session(sessionmaker(bind=engine))
@@ -28,12 +28,10 @@ class Funcionario(Base, UserMixin):
     def __repr__(self):
         return f"<Funcionario {self.nome}>"
 
-    # converter a senha
+    #converter a senha
     def set_password(self, password):
         self.senha = generate_password_hash(password)
 
-    # comparar a senha pra saber se a senha digitada é a msm
+    #comparar a senha pra saber se a senha digitada é a msm
     def check_password(self, password):
-        return check_password_hash(self.senha, password)
-
-
+         return check_password_hash(self.senha, password)

@@ -86,7 +86,7 @@ a {
     height: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: space-evenly;
     gap: 10px;
     padding: 10px;
 }
@@ -109,6 +109,8 @@ a {
 
 .card_operacao {
     border: 1px solid black;
+    width: 300px;
+    height: 340px;
     border-radius: 10px;
     text-align: center;
 }
@@ -120,16 +122,28 @@ a {
     padding: 14px;
 }
 
-.operador {
-    font-size: 26px;
+
+.botao {
+    background-color: #bf6524;
+    font-family: "times New Roman", serif;
 }
 
-.form-subtrair {
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-    padding: 14px;
+.accordion-button {
+    background-color: #cf7d3b;
+    font-family: "times New Roman", serif;
 }
+
+.operacoes{
+    font-family: "Times New Roman Time", Times, serif;
+}
+
+
+
+.operador {
+    font-size: 30px;
+    color: #9b4a36;
+}
+
 
 
 .icon_calculo {
@@ -149,6 +163,7 @@ a {
 
 
 }
+
 
 .form_login {
     display: flex;
@@ -232,15 +247,15 @@ body {
 
 /* Custom brown-themed colors */
 .bg-brand-brown {
-    background-color: #78350f !important;
+    background-color: #78350f;
 }
 
 .text-brand-brown {
-    color: #78350f !important;
+    color: #78350f;
 }
 
 .text-brand-dark {
-    color: #451a03 !important;
+    color: #451a03;
 }
 
 .btn-brand-brown {

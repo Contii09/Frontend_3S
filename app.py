@@ -28,8 +28,6 @@ def load_user(user_id):
     return resultado
 
 
-
-
 @app.route('/')
 def home():
     return render_template("home.html")
@@ -45,15 +43,12 @@ def operacoes():
     return render_template("operacoes.html")
 
 
-
-
 @app.route('/funcionarios')
 @login_required
 def funcionarios():
     func_sql = select(Funcionario)
     resultado = db_session.execute(func_sql).scalars().all()
     return render_template("funcionarios.html", resultado=resultado)
-
 
 
 @app.route('/login', methods=['GET', 'POST'])
@@ -329,6 +324,7 @@ def animais():
     return render_template('animais.html')
 
 
+
 @app.route('/gatos')
 def listar_gatos():
     gatos = routes.get_gatos()
@@ -338,7 +334,6 @@ def listar_gatos():
         gato["image"] = routes.get_image()["url"]
 
     return render_template('gatos.html', gatos=gatos)
-
 
 
 # TODO Final do código
