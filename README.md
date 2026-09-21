@@ -11,11 +11,17 @@
 <img width="1903" height="911" alt="image" src="https://github.com/user-attachments/assets/5dcbfabb-ecfc-4176-94c6-038c3230237b" />
 
 ## Operações Aritmeticas
-<img width="1919" height="740" alt="image" src="https://github.com/user-attachments/assets/c9c62db0-cd71-4937-964a-435ee40346e0" />
+<img width="1908" height="891" alt="Captura de tela 2026-09-21 134242" src="https://github.com/user-attachments/assets/fa26bd15-e32e-4244-ad85-4b4a64797c78" />
 
 ## Operações Geometricas
-<img width="1919" height="891" alt="image" src="https://github.com/user-attachments/assets/b415e7e3-a6dc-4cdc-8ad3-1c3ab077ea8e" />
+<img width="1890" height="911" alt="Captura de tela 2026-09-21 140136" src="https://github.com/user-attachments/assets/70e0cbf0-89ca-4ca2-a394-21094b7d0799" />
 
 ## Funcionários
-<img width="1919" height="707" alt="image" src="https://github.com/user-attachments/assets/b676f3f5-2d2f-4200-9d81-8c5b90d6a75b" />
+<img width="1911" height="890" alt="Captura de tela 2026-09-21 141015" src="https://github.com/user-attachments/assets/a73f014c-8990-44c2-8a19-ae24525c07f8" />
+
+## Animais
+<img width="1919" height="914" alt="Captura de tela 2026-03-17 132909" src="https://github.com/user-attachments/assets/6d94f6b2-f156-460f-9db6-dbbd453f8906" />
+
+## Gatos
+<img width="1919" height="915" alt="Captura de tela 2026-03-17 133043" src="https://github.com/user-attachments/assets/09a96d04-a5c8-4154-9094-b87bbf512459" />
 
