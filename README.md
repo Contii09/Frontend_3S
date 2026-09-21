@@ -14,7 +14,7 @@
 <img width="1908" height="891" alt="Captura de tela 2026-09-21 134242" src="https://github.com/user-attachments/assets/fa26bd15-e32e-4244-ad85-4b4a64797c78" />
 
 ## Operações Geometricas
-<img width="1919" height="891" alt="image" src="https://github.com/user-attachments/assets/b415e7e3-a6dc-4cdc-8ad3-1c3ab077ea8e" />
+<img width="1890" height="911" alt="Captura de tela 2026-09-21 140136" src="https://github.com/user-attachments/assets/70e0cbf0-89ca-4ca2-a394-21094b7d0799" />
 
 ## Funcionários
 <img width="1919" height="707" alt="image" src="https://github.com/user-attachments/assets/b676f3f5-2d2f-4200-9d81-8c5b90d6a75b" />
