@@ -17,7 +17,7 @@
 <img width="1890" height="911" alt="Captura de tela 2026-09-21 140136" src="https://github.com/user-attachments/assets/70e0cbf0-89ca-4ca2-a394-21094b7d0799" />
 
 ## Funcionários
-<img width="1919" height="707" alt="image" src="https://github.com/user-attachments/assets/b676f3f5-2d2f-4200-9d81-8c5b90d6a75b" />
+<img width="1911" height="890" alt="Captura de tela 2026-09-21 141015" src="https://github.com/user-attachments/assets/a73f014c-8990-44c2-8a19-ae24525c07f8" />
 
 ## Animais
 <img width="1919" height="914" alt="Captura de tela 2026-03-17 132909" src="https://github.com/user-attachments/assets/6d94f6b2-f156-460f-9db6-dbbd453f8906" />
